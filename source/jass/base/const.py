@@ -12,6 +12,7 @@ Constants, tables and small utility function for the jass game.
 
 
 from typing import List, Iterable
+
 import numpy as np
 
 #

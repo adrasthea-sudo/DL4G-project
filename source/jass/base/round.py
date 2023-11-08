@@ -2,7 +2,7 @@
 #
 # Created by Thomas Koller on 24.07.18
 #
-from jass.base.const import *
+from source.jass.base.const import *
 
 
 class Round:

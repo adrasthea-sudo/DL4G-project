@@ -4,11 +4,11 @@
 #
 
 from typing import List
-import numpy as np
 
-from jass.base.const import next_player, partner_player
-from jass.base.round import Round
-from jass.base.player_round import PlayerRound
+import numpy as np
+from source.jass.base.const import next_player, partner_player
+from source.jass.base.round import Round
+from source.jass.base.player_round import PlayerRound
 
 
 class PlayerRoundCheating(PlayerRound):
