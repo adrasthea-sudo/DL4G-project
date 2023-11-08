@@ -9,7 +9,7 @@ from source.jass.arena.arena import Arena
 from source.jass.arena.trump_selection_players_strategy import TrumpPlayerStrategy
 from source.jass.arena.play_game_nr_rounds_strategy import PlayNrRoundsStrategy
 from source.jass.player.random_player_schieber import RandomPlayerSchieber
-from source.jass.player.eva_mcts.fabian_mcts_player import EvaMCTSPlayer
+from source.jass.player.eva_mcts.eva_mcts_player import EvaMCTSPlayer
 
 
 def main():
@@ -21,7 +21,7 @@ def main():
                   trump_strategy=TrumpPlayerStrategy(),
                   play_game_strategy=PlayNrRoundsStrategy(4))
     player = RandomPlayerSchieber()
-    my_player = MCTSPlayer()
+    my_player = EvaMCTSPlayer()
 
     arena.set_players(my_player, player, my_player, player)
     arena.nr_games_to_play = 8

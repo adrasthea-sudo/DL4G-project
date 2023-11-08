@@ -1,10 +1,10 @@
-from jass.base.const import *
-from jass.base.player_round import PlayerRound
-from jass.base.round_factory import get_round_from_player_round
-from jass.player.mcts.sampler import Sampler
-from jass.player.mcts.node import Node
-from jass.player.mcts.UCB import UCB
-from jass.player.random_player_schieber import RandomPlayerSchieber
+from source.jass.base.const import *
+from source.jass.base.player_round import PlayerRound
+from source.jass.base.round_factory import get_round_from_player_round
+from source.jass.player.mcts.sampler import Sampler
+from source.jass.player.mcts.node import Node
+from source.jass.player.mcts.UCB import UCB
+from source.jass.player.random_player_schieber import RandomPlayerSchieber
 import time
 import copy
 
