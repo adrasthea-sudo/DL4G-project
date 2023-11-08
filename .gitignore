@@ -1,0 +1,16 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+.idea
+dist
+
+# Python specific stuff
+*.pyc
+
+# Local install information created by pip -e
+jass.egg-info
+jass_kit.egg-info
+
+# venv
+venv/
