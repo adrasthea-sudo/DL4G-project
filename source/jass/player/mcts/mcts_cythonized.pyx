@@ -92,7 +92,7 @@ def _simulate_round(round: PlayerRound, int card, my_play) -> (bool, PlayerRound
 def _back_propagation(node: Node, win):
     temp_node = node
     while temp_node:
-        temp_node.increment_visit()
+        temp_node.incr_visit()
         if win:
             temp_node.win_count += 1
         else:

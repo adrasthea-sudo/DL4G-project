@@ -84,7 +84,7 @@ class MCTS:
     def _back_propagation(node: Node, win: bool):
         temp_node = node
         while temp_node:
-            temp_node.increment_visit()
+            temp_node.incr_visit()
             if win:
                 temp_node.win_count += 1
             else:
